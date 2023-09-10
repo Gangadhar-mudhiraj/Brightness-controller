@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+main {
+  background-color: black;
+  height: 98vh;
+  width: 98vw;
+  display: flex;
+}
+.content {
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid gray; */
+}
+.bulbbox {
+  width: 75%;
+}
+.circle {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 249, 244);
+  margin-top: 15rem;
+  margin-left: 10rem;
+  box-shadow: 0 0 55px rgb(219, 213, 200);
+  background-color: rgb(250, 248, 246);
+  opacity: 0;
+}
+input {
+  position: relative;
+  transform: rotate(-90deg);
+  margin-top: 45vh;
+  margin-left: 35%;
+  appearance: none;
+  border-radius: 20px;
+}
+.br::-webkit-slider-runnable-track {
+  appearance: none;
+  height: 20px;
+  width: 200px;
+  background-color: rgb(58, 54, 54);
+  border-radius: 20px;
+}
+.br::-webkit-slider-thumb {
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.3rem;
+}
+
+.switch {
+  width: 80px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: aliceblue;
+  border-radius: 30%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-left: -350px;
+}
+.s {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(221, 10, 10);
+  border-radius: 40%;
+}
+.switchon {
+  flex-direction: row-reverse;
+}
+.so {
+  background-color: rgb(25, 158, 36);
+}
+.span {
+  margin-left: -330px;
+}
+span {
+  padding-right: 20px;
+}
